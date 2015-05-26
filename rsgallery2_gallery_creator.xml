@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="user" method="upgrade">
+	<name>PLG_USER_RSGALLERY2_GALLERY_CREATOR</name>
+	<author>RSGallery2 Team</author>
+	<creationDate>21.03.2015</creationDate>
+	<copyright>(C) 2012-2015 RSGallery2 Team. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>www.rsgallery2.nl</authorUrl>
+	<version>1.1</version>
+	<description>PLG_USER_RSGALLERY2_GALLERY_CREATOR_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="rsgallery2_gallery_creator">rsgallery2_gallery_creator.php</filename>
+		<filename>index.html</filename>
+	</files>
+
+	<languages folder="language>
+		<language tag="en-GB">en-GB/en-GB.plg_user_rsgallery2_gallery_creator.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_user_rsgallery2_gallery_creator.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic"
+				addfieldpath="/administrator/components/com_rsgallery2/models/fields"
+			>
+				<field
+					name="publish_gallery"
+					type="radio"
+					default="0"
+					label="PLG_USER_RSGALLERY2_GALLERY_CREATOR_PUBLISH_GALLERY_LABEL"
+					description="PLG_USER_RSGALLERY2_GALLERY_CREATOR_PUBLISH_GALLERY_DESC">
+					<option
+						value="0">JNO</option>
+					<option
+						value="1">JYES</option>
+				</field>
+				<field
+						id="gid"
+						name="gid"
+						type="gallery"
+						label="PLG_USER_RSGALLERY2_GALLERY_CREATOR_CHOOSE_GALLERY"
+						description="PLG_USER_RSGALLERY2_GALLERY_CREATOR_CHOOSE_GALLERY_DESC"
+						default="0"
+						required="true"
+				><!-- introduces new field type gallery -->
+				</field>
+			</fieldset>
+<!-- ToDo: does not work nicely: to wide for right column, find other way to do this
+		    <fieldset name="rules">
+				<field name="asset_id" type="hidden" filter="unset" /> 
+				<field
+                        name="rules"
+                        type="rules"
+                        label="PLG_USER_RSGALLERY2_GALLERY_CREATOR_RULES_LABEL"
+                        translate_label="false"
+                        filter="rules"
+                        validate="rules"
+                        class="inputbox"
+                        component="com_rsgallery2"
+                        section="gallery" />
+			</fieldset>
+-->
+		</fields>
+	</config>
+</extension>
