@@ -3,7 +3,7 @@
  * RSGallery2 Gallery Creator plugin
  * This plugin creates a new gallery for a newly created user
  *
- * @version     $Id: rsgallery2_gallery_creator.php  $
+ * @version     4.0.1
  * @package		RSGallery2
  * @subpackage	Content plugin
  * @copyright	Copyright (C) 2013 - 2016 RSGallery2 team
