@@ -21,8 +21,10 @@ Legend:
 - -> Removed
 ! -> Note
 
-2016-05-22 finnern - 
-	
+2016-05-22 finnern - 4.0.1
+^ readme.md: Small improvements
+^ Language:  Small improvements
+
 2015-03-21 finnern - SVN ...
 + Adapted for J!3.x  
 
