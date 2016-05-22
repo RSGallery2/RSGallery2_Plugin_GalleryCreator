@@ -15,5 +15,5 @@ to upload/release and delete images in owned gallery.
 'Create own' allows to add more galleries to the owned ones.  
 For web pages which support my galleries. With this plugin a new gallery may be created for every new Joomla user
 
-Install the plugin, enable the plugin, check the plugin settings and add
+Install the plugin, *enable the plugin*, check the plugin settings and add
 a new user (try from frontend and backend).
