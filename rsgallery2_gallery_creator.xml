@@ -2,11 +2,11 @@
 <extension version="3.0" type="plugin" group="user" method="upgrade">
 	<name>PLG_USER_RSGALLERY2_GALLERY_CREATOR</name>
 	<author>RSGallery2 Team</author>
-	<creationDate>21.03.2015</creationDate>
-	<copyright>(C) 2012-2015 RSGallery2 Team. All rights reserved.</copyright>
+	<creationDate>26.05.2016</creationDate>
+	<copyright>(C) 2012-2016 RSGallery2 Team. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<authorUrl>www.rsgallery2.nl</authorUrl>
-	<version>1.1</version>
+	<authorUrl>www.rsgallery2.org</authorUrl>
+	<version>4.0.1</version>
 	<description>PLG_USER_RSGALLERY2_GALLERY_CREATOR_XML_DESCRIPTION</description>
 
 	<files>
@@ -14,13 +14,14 @@
 		<filename>index.html</filename>
 	</files>
 
-	<languages folder="language>
+	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.plg_user_rsgallery2_gallery_creator.ini</language>
 		<language tag="en-GB">en-GB/en-GB.plg_user_rsgallery2_gallery_creator.sys.ini</language>
 	</languages>
 
 	<config>
-		<fields name="params">
+		<fields 
+			name="params">
 			<fieldset name="basic"
 				addfieldpath="/administrator/components/com_rsgallery2/models/fields"
 			>
@@ -30,10 +31,8 @@
 					default="0"
 					label="PLG_USER_RSGALLERY2_GALLERY_CREATOR_PUBLISH_GALLERY_LABEL"
 					description="PLG_USER_RSGALLERY2_GALLERY_CREATOR_PUBLISH_GALLERY_DESC">
-					<option
-						value="0">JNO</option>
-					<option
-						value="1">JYES</option>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
 				</field>
 				<field
 						id="gid"
@@ -46,8 +45,10 @@
 				><!-- introduces new field type gallery -->
 				</field>
 			</fieldset>
-<!-- ToDo: does not work nicely: to wide for right column, find other way to do this
-		    <fieldset name="rules">
+			<fieldset name="permissions"
+				description="JCONFIG_PERMISSIONS_DESC"
+				label="JCONFIG_PERMISSIONS_LABEL"
+			>
 				<field name="asset_id" type="hidden" filter="unset" /> 
 				<field
                         name="rules"
@@ -60,7 +61,11 @@
                         component="com_rsgallery2"
                         section="gallery" />
 			</fieldset>
--->
 		</fields>
 	</config>
+	
+	<updateservers>
+		<server type="extension" priority="1" name="Github RSGallery2 component updates">http://releases.rsgallery2.org/RSG2_GalleryCreator_update.xml</server>
+	</updateservers>  
 </extension>
+
