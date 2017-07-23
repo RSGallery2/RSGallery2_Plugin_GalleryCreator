@@ -21,6 +21,9 @@ Legend:
 - -> Removed
 ! -> Note
 
+2017-07-23 finnern - 4.0.2
+Adjusted text for links to J!3.x menu texts
+
 2016-05-22 finnern - 4.0.1
 ^ readme.md: Small improvements
 ^ Language:  Small improvements
