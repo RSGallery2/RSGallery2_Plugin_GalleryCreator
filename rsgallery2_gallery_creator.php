@@ -6,7 +6,7 @@
  * @version     4.0.3
  * @package        RSGallery2
  * @subpackage    Content plugin
- * @copyright    Copyright (C) 2013 - 2017 RSGallery2 team
+ * @copyright    Copyright (C) 2013-2018 RSGallery2 Team
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
  * RSGallery is Free Software
  */

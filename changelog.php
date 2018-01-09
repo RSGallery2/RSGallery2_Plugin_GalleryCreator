@@ -1,7 +1,7 @@
 <?php
 /**
 * @package rsgallery2_gallery_creator.php
-* @copyright Copyright (C) 2013 - 2016 RSGallery2 Team. 
+* @copyright Copyright (C) 2013 - 2018 RSGallery2 Team. 
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.txt
 */
 defined( '_JEXEC' ) or die();
