@@ -21,6 +21,15 @@ Legend:
 - -> Removed
 ! -> Note
 
+* --- 4.0.4 --- 2018-06-06 --- whazzup ------------------------------
+
+^ Pathes to files now written with slashes '../.../...' instead of '...' . DS . '...'
++ Added updateserver file
+
+* --- 4.0.3 --- 2017-07-30 --- whazzup ------------------------------
+
+# Fixed: require_once to rsgallery2 component did have wrong path in backend. It did lead to an error on creating a new user
+
 2017-07-23 finnern - 4.0.2
 Adjusted text for links to J!3.x menu texts
 
