@@ -5,6 +5,7 @@
 		<description>Update matching component rsgallery2 v4.4.1</description>
 		<element>rsgallery2_gallery_creator</element>
 		<type>plugin</type>
+		<folder>user</folder>
 		<version>4.0.4</version>
 		<downloads>
 			<downloadurl type="upgrade" format="zip">https://github.com/RSGallery2/RSGallery2_Plugin_GalleryCreator/releases/download/Release_4.0.4/RSGallery2_Plugin_GalleryCreator_4_0_4.zip</downloadurl>
