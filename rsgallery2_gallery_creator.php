@@ -12,7 +12,7 @@
  */
 
 // No direct access
-defined('JPATH_BASE') or die;
+defined('_JEXEC') or die;
 
 /**
  * @package        Joomla.Plugin
@@ -61,10 +61,6 @@ class plgUserRsgallery2_gallery_creator extends JPlugin
                 //$lang->load('plg_user_rsgallery2_gallery_creator', JPATH_ADMINISTRATOR);
 
                 // Initialise RSGallery2 component
-
-                // 170730 wrong on backend  "create user
-                //require_once(JPATH_BASE.'/administrator/components/com_rsgallery2/init.rsgallery2.php');
-                //require_once(JPATH_BASE.'/administrator/components/com_rsgallery2/options/galleries.class.php');//needed for new rsgGalleriesItem class
 
                 // Right on site login ?
                 require_once(JPATH_ADMINISTRATOR . '/components/com_rsgallery2/init.rsgallery2.php');
